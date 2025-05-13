@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gadugi';
+    src: url("/fonts/gadugi.ttf");
+}
+
+body {
+    font-family: 'Gadugi';
+    background-color: #FFF;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 14px 20px;
+}
