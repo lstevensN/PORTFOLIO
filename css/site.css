@@ -58,10 +58,15 @@ body {
 
 .intro {
     width: auto;
-    height: 50%;
+    height: 60%;
 
     color: white;
     background-color: rgba(80, 0, 105, 1);
+}
+
+.intro-bio {
+    font-size: 30px;
+    width: 100%;
 }
 
 .intro-hello {
@@ -79,7 +84,7 @@ body {
     height: 50%;
 
     color: black;
-    background-color: rgba(200, 200, 200, 1);
+    background-color: white; /* rgba(200, 200, 200, 1); */
 }
 
 .portfolio-title {
@@ -91,6 +96,22 @@ body {
     font-size: 20px;
     width: 100%;
     color: grey;
+}
+
+.portfolio-display {
+    height: 350px;
+}
+
+.portfolio-img {
+    padding: 0px 20px 0px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.portfolio-img:hover {
+    padding: 0px 10px 0px 10px;
+    width: 220px;
+    height: 220px;
 }
 
 .primary_header {
