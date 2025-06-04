@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Uppies! <3",
+        "description": "A really cool game!!!",
+        "image": "img/uppies.png",
+        "imageAlt": "Uppies Image",
+        "link": "https://lstevensn.itch.io/uppies",
+        "tags": [ "Unity", "Game Jam", "C#", "Game" ]
+    },
+    {
+        "title": "Squidwords",
+        "description": "Stand ready for my iron, squids.",
+        "image": "img/squidwords.png",
+        "imageAlt": "Squidwords Image",
+        "link": "https://lstevensn.itch.io/squidwords",
+        "tags": [ "Love2D", "Capstone", "Lua", "Game" ]
+    },
+    {
+        "title": "PRO310-DPP Project",
+        "description": "Haven't named this one yet...",
+        "image": "img/question_mark.png",
+        "imageAlt": "Question Mark Image",
+        "link": "https://github.com/lstevensN/PRO310-DPP",
+        "tags": [ "Love2D", "Lua", "Tech Demo" ]
+    }
+]

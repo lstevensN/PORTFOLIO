@@ -80,11 +80,10 @@ body {
 }
 
 .portfolio {
-    width: auto;
-    height: 50%;
+    height: fit-content;
 
-    color: black;
-    background-color: white; /* rgba(200, 200, 200, 1); */
+    color: white;
+    background-color: rgb(0, 0, 22); /* rgba(200, 200, 200, 1); */
 }
 
 .portfolio-title {
@@ -99,19 +98,70 @@ body {
 }
 
 .portfolio-display {
-    height: 350px;
+    padding: 50px;
 }
 
-.portfolio-img {
-    padding: 0px 20px 0px 20px;
+.project {
+    display: block;
+
+    width: 400px;
+    height: 600px;
+    margin: 30px;
+    padding: 20px;
+
+    color: black;
+    background-color: white;
+
+    text-decoration: none;
+
+    border: 5px solid black;
+    border-radius: 50px;
+
+    /* Thank you https://www.geeksforgeeks.org/how-hovering-over-a-division-element-to-gradually-change-the-width-in-css/, this worked amazingly! */
+    transition: width 0.5s, height 0.5s, margin 0.5s, padding 0.5s;
+}
+
+.project:hover {
+    width: 420px;
+    height: 620px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.project-description {
+    font-size: 20px;
+    margin: 25px;
+
+    word-wrap: normal;
+}
+
+.project-img {
     width: 200px;
     height: 200px;
 }
 
-.portfolio-img:hover {
-    padding: 0px 10px 0px 10px;
-    width: 220px;
-    height: 220px;
+.project-tag {
+    width: fit-content;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    
+    color: white;
+    background-color: black;
+    
+    text-align: center;
+    line-height: 50px;
+
+    border-radius: 50px;
+    
+    position: relative;
+}
+
+.project-title {
+    font-size: 36px;
+    margin: 25px;
+
+    word-wrap: normal;
 }
 
 .primary_header {
