@@ -17,7 +17,7 @@
     },
     {
         "title": "PRO310-DPP Project",
-        "description": "Haven't named this one yet...",
+        "description": "A 2D tech demo of collision detection/systems, designed for efficient & clean memory usage.",
         "image": "img/question_mark.png",
         "imageAlt": "Question Mark Image",
         "link": "https://github.com/lstevensN/PRO310-DPP",
