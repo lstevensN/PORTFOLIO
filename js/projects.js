@@ -13,7 +13,7 @@ function showProjects(projects) {
     for (let i = 0; i < projects.length; i++) {
         let project = projects[i];
 
-        fetch('/project.html')
+        fetch('project.html')
             .then((res) => {
                 if (!res.ok) {
                     throw new Error(`HTTP error! Status: ${res.status}`);
@@ -49,7 +49,7 @@ function showProjects(projects) {
 }
 
 function fetchProjects() {
-    fetch("/data/projects.json")
+    fetch("data/projects.json")
         .then((res) => {
             if (!res.ok) {
                 throw new Error(`HTTP error! Status: ${res.status}`);
