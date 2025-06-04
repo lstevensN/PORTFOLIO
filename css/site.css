@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gadugi';
-    src: url("/fonts/gadugi.ttf");
+    src: url("./fonts/gadugi.ttf");
 }
 
 html {
