@@ -129,8 +129,10 @@ body {
 }
 
 .project-description {
+    width: 360px;
+    margin: 25px auto;
+    
     font-size: 20px;
-    margin: 25px;
 
     word-wrap: normal;
 }

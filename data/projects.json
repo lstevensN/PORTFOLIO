@@ -1,7 +1,7 @@
 [
     {
         "title": "Uppies! <3",
-        "description": "A really cool game!!!",
+        "description": "A simple rhythmic dodging game, created for a Game Jam. Move your little guy around the stage using \"Uppies\" and avoid musically synced waves of danger (and explosions)!",
         "image": "img/uppies.png",
         "imageAlt": "Uppies Image",
         "link": "https://lstevensn.itch.io/uppies",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Squidwords",
-        "description": "Stand ready for my iron, squids.",
+        "description": "An action-typing game with tower defense elements, made for my college's Capstone Project. Repel the oncoming swarms of hungry squids by chaining together powerful letter combos!",
         "image": "img/squidwords.png",
         "imageAlt": "Squidwords Image",
         "link": "https://lstevensn.itch.io/squidwords",
